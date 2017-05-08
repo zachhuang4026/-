@@ -12,6 +12,7 @@
 		927014FD1EBC688C00F9B111 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 927014FB1EBC688C00F9B111 /* Main.storyboard */; };
 		927014FF1EBC688C00F9B111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 927014FE1EBC688C00F9B111 /* Assets.xcassets */; };
 		927015021EBC688C00F9B111 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 927015001EBC688C00F9B111 /* LaunchScreen.storyboard */; };
+		927184AF1EC0667500FD781C /* TrueLoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927184AE1EC0667500FD781C /* TrueLoveViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		927014FE1EBC688C00F9B111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		927015011EBC688C00F9B111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		927015031EBC688C00F9B111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		927184AE1EC0667500FD781C /* TrueLoveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrueLoveViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				927014F71EBC688C00F9B111 /* AppDelegate.swift */,
 				927014F91EBC688C00F9B111 /* ViewController.swift */,
 				927014FB1EBC688C00F9B111 /* Main.storyboard */,
+				927184AE1EC0667500FD781C /* TrueLoveViewController.swift */,
 				927014FE1EBC688C00F9B111 /* Assets.xcassets */,
 				927015001EBC688C00F9B111 /* LaunchScreen.storyboard */,
 				927015031EBC688C00F9B111 /* Info.plist */,
@@ -139,6 +142,7 @@
 			files = (
 				927014FA1EBC688C00F9B111 /* ViewController.swift in Sources */,
 				927014F81EBC688C00F9B111 /* AppDelegate.swift in Sources */,
+				927184AF1EC0667500FD781C /* TrueLoveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +304,7 @@
 				927015081EBC688C00F9B111 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

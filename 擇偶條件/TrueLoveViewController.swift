@@ -10,19 +10,22 @@ import UIKit
 
 class TrueLoveViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    @IBOutlet weak var StarTextField: UITextField!
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func selectTrueLove(_ sender: Any) {
     }
     
-
+    @IBOutlet weak var starTextField: UITextField!
+    
+    @IBOutlet weak var sexSegControl: UISegmentedControl!
+    
+    @IBOutlet weak var yesImageView: UIImageView!
+    
+    @IBOutlet weak var noImageView: UIImageView!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        // Do any additional setup after loading the view.
+    }
     /*
     // MARK: - Navigation
 

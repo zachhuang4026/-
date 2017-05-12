@@ -11,6 +11,17 @@ import UIKit
 class TrueLoveViewController: UIViewController {
 
     @IBAction func selectTrueLove(_ sender: Any) {
+        if starTextField.text == "Leo" {
+            if sexSegControl.selectedSegmentIndex == 0{
+                yesImageView.isHidden = false
+                noImageView.isHidden = true
+            }
+            else{
+                noImageView.isHidden = false
+                yesImageView.isHidden = true
+            }
+            
+    }
     }
     
     @IBOutlet weak var starTextField: UITextField!
